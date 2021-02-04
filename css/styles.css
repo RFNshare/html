@@ -1,7 +1,7 @@
-/**
+*
 {
-	border: 1px solid red;
-}*/
+	border: 1px solid green;
+}
 body
 {
 	margin: 4%;
@@ -17,6 +17,7 @@ header
 	text-align: center;
 	background-color: #666666;
 	padding: 15px;
+	border-radius: 15px;
 
 }
 nav
@@ -26,18 +27,32 @@ nav
 	font-variant: small-caps;
 	font-family: Arial, "Time Nee Roman", serif;
 }
-section
+nav a
+{
+	text-decoration: none;
+	display: inline-block;
+	width: 22%;
+	background-color: #FFFFFF;
+}
+.half
 {
 	display: inline-block;
-	width: 31%;
+	width: 45%;
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 15px;
+
+}
+.r_half
+{
+	clear: both;
 }
 h2
 {
 	color: #666666;
 	background: #00B7ea;
+	border-radius: 5px
+
 }
 details
 {
@@ -52,6 +67,7 @@ footer
 	background: #666666;
 	clear: both;
 	padding: 15px;
+	border-radius: 15px;
 }
 img
 {
