@@ -18,6 +18,7 @@ header
 	background-color: #666666;
 	padding: 15px;
 	border-radius: 15px;
+	
 
 }
 nav
@@ -34,6 +35,7 @@ nav a
 	width: 22%;
 	background-color: #FFFFFF;
 }
+
 .half
 {
 	display: inline-block;
@@ -51,7 +53,16 @@ h2
 {
 	color: #666666;
 	background: #00B7ea;
-	border-radius: 5px
+	border-radius: 5px;
+	transition-property: color, width, background, 
+	border-radius;
+	transition-duration: 5s;
+	transition-timing-function: linear;
+	transition-delay: 5s;
+}
+h2:hover
+{
+	color: #FFFFFF;
 
 }
 details
@@ -72,4 +83,24 @@ footer
 img
 {
 	width: 75px;
+
+}
+h2
+{
+	color: #666666;
+	background: #00B7ea;
+	border-radius: 5px;
+	transition-property: color, width, background, 
+	border-radius;
+	transition-duration: .1s;
+	transition-timing-function: linear;
+	transition-delay: .1s;
+}
+h2:hover
+{
+	color: #FFFFFF;
+	background: #2d31b3;
+	width: 350px;
+	border-radius: 50%
+	
 }

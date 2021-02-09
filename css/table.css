@@ -1,0 +1,77 @@
+/**
+{
+	border: 1px solid red;
+}*/
+caption
+{
+	background-color: #666666;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 2px;
+	border-radius: 10px 10px 0px 0px ;
+	font-size: 25px;
+}
+.cal
+{
+	color:#06425C;
+	border-radius: 0px 0px 10px 10px  ;
+	border: 3px solid black;
+}
+.old
+{
+	background-color: #51A39D;
+	color:rgba(0,0,0,.25);
+	background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;
+}
+
+.cal td, .cal th
+{
+	margin: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+
+}
+th
+{
+	text-align: center;
+	background: #FFFFFF
+}
+.cal td
+{
+	width: 75px;
+	height: 75px;
+	vertical-align: top;
+}
+span
+{
+	visibility: hidden;
+	display: block;
+	text-align: center;
+}
+td:active >span
+{
+	visibility: visible;
+}
+
+tr:nth-child(even)
+{
+	background-color: #CDBB79;
+
+}
+tr:nth-child(odd)
+{
+	background-color: #F2F2F2;
+}
+tr:last-child>td:last-child
+{
+	background-color: #51A39D;
+	-webkit-border-radius: 0 0 10px 0;
+	border-radius: 0 0 10px 0;	
+	margin: 0;
+	padding: 0;
+}
+tr:last-child{
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 25px 25px;	
+
+}
