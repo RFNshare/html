@@ -1,0 +1,38 @@
+/*section
+{
+	border: 1px solid red;
+}*/
+body{
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding:1%;
+}
+nav
+{
+	display: inline-block;
+	width: 20%;
+	height: 100vh;
+	float: left;
+	background-color: #486B02;
+	overflow: auto;
+}
+nav a
+{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 5%;
+	margin-top: 18px;
+	color: white;
+	background: url('../img/arrow.png') no-repeat;
+}
+
+section
+{
+	display: inline-block;
+	width: 70%;
+	height: 100vh;
+	margin-left: 15px;
+	overflow: auto;
+
+}
