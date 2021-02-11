@@ -1,0 +1,31 @@
+/**
+{
+	border: 1px solid red;
+}*/
+nav
+{
+	padding: 2%;
+	border: 1px solid #000000;
+}
+nav a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #486B02;
+	margin: 2%;
+	padding: 1%;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	border-radius: 15px;
+}
+.current
+{
+	background-color: red;
+}
+
+nav a:hover
+{
+	border-radius: 0;
+	color: #000000;
+}
